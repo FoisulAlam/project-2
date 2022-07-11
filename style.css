@@ -1,0 +1,244 @@
+html {
+    background-image: linear-gradient(#FC5E55, #FA4083);
+}
+
+body {
+    background-image: url(images/image-lion-background.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding-bottom: 100px;
+
+}
+
+.container {
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+.navbutton {
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+}
+main {
+    min-height: 450px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+.main2 {
+    min-height: 300px;
+    width: 1024px;
+    display: block;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.BadhonBox1 {
+    flex: 2;
+
+}
+.mybutton {
+    background-color: white;
+    color: #FA4083;
+    padding: 10px 25px 10px 25px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.108);
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.262);
+}
+.mybutton:hover {
+    background-color: rgb(3, 208, 140);
+    transition-duration: 1s;
+}
+.BadhonBox2 {
+    flex: 1;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.262);
+    border-radius: 5px;
+}
+
+.BadhonBox2 img {
+    width: 100%;
+}
+
+
+.BadhonBox1 h2 {
+    font-size: 50px;
+    color: white;
+    margin-right: 100px;
+}
+
+.BadhonBox1 p {
+    line-height: 30px;
+    font-size: 18px;
+    color: white;
+    margin-right: 100px;
+}
+
+
+
+
+.cards {
+    width: 1024px;
+    background-color: aqua;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+.card1 {
+    width: 30%;
+    min-height: 300px;
+    background-color: #FC5E55;
+    background-image: url(images/image-background-card1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.262);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.card1 img {
+    margin-top: 10px;
+
+}
+
+.card2 img {
+    margin-top: 10px;
+
+}
+
+.card3 img {
+    margin-top: 10px;
+
+}
+.card1 p {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.card1 h2 {
+    margin-top: 100px;
+}
+
+.card2 h2 {
+    margin-top: 100px;
+}
+
+.card3 h2 {
+    margin-top: 100px;
+}
+
+.card2 {
+    width: 30%;
+    min-height: 300px;
+    background-color: bisque;
+    background-image: url(images/image-background-card2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.262);
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.card2 p {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.card3 {
+    width: 30%;
+    min-height: 300px;
+    background-color: blue;
+    background-image: url(images/image-background-card3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.262);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.card3 p {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.testimonials {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.tbox {
+    width: 37%;
+    padding: 50px;
+    border: 1px solid white;
+    margin-top: 100px;
+}
+
+.drop-down {
+    display: none;
+    position: absolute;
+    padding-top: 5px;
+    margin-left: -10px;
+}
+
+.navbutton:hover .drop-down {
+    display: block;
+
+}
+
+.drop-down .navbutton a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.drop-down .navbutton {
+    text-align: center;
+    background-color: cornflowerblue;
+    margin-top: 10px;
+    width: 100px;
+
+}
+
+.nav .navbutton a {
+    color: white;
+    text-decoration: none;
+}
+
+.drop-down .navbutton a:hover {
+    background-color: white;
+    color: orange;
+    transition-duration: 500ms;
+}
+
